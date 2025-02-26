@@ -1,0 +1,15 @@
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\bin\Debug\net8.0\AC9V2.exe
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\bin\Debug\net8.0\AC9V2.deps.json
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\bin\Debug\net8.0\AC9V2.runtimeconfig.json
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\bin\Debug\net8.0\AC9V2.dll
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\bin\Debug\net8.0\AC9V2.pdb
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\AC9V2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\AC9V2.AssemblyInfoInputs.cache
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\AC9V2.AssemblyInfo.cs
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\AC9V2.csproj.CoreCompileInputs.cache
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\AC9V2.sourcelink.json
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\AC9V2.dll
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\refint\AC9V2.dll
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\AC9V2.pdb
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\AC9V2.genruntimeconfig.cache
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC9V2\obj\Debug\net8.0\ref\AC9V2.dll
