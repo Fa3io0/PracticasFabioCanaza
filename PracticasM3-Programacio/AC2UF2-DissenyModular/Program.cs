@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http;
 using System.Threading;
 using Newtonsoft.Json;
 internal class EjercicioAPI
@@ -39,7 +40,7 @@ internal class EjercicioAPI
             
             Thread.Sleep(500);
 
-            string URL2 = "https://api.wheretheiss.at/v1/coordinates/37.795517,-122.393693";
+            string URL2 = $"https://api.wheretheiss.at/v1/coordinates/{latitud},{longitud}";
 
             using (var client2 = new HttpClient())
             {
@@ -60,7 +61,7 @@ internal class EjercicioAPI
 
                 string nombrePais2 = apiObject2.countryName;
 
-                Console.WriteLine("El segundo pais es " + nombrePais2);
+                Console.WriteLine("El segundo pais con la segunda API es" + nombrePais2);
             }
 
             Thread.Sleep(500);
