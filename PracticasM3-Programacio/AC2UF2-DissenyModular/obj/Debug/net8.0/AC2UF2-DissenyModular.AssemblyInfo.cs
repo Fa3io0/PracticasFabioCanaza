@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AC2UF2-DissenyModular")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8df5f5ed42515e322186cba1e7ff84f358932a29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3788fc256569eb525c5d8ceccf78212142b478d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("AC2UF2-DissenyModular")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AC2UF2-DissenyModular")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
