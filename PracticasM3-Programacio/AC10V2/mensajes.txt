@@ -1,0 +1,5 @@
+obiwan;para anakin;Anakin my alligence is with the republic with the democracy
+vader;para obiwan;im not your failure obi-wan
+anakin;para obiwan;if youre not with me then youre my enemy
+c3po;para r2d2;A veces simplemente no entiendo el comportamiento humano
+obiwan;para anikan;Only a sith deals in absoluts, I wil do what a must
