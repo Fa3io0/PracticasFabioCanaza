@@ -1,0 +1,15 @@
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\bin\Debug\net8.0\AC11.exe
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\bin\Debug\net8.0\AC11.deps.json
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\bin\Debug\net8.0\AC11.runtimeconfig.json
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\bin\Debug\net8.0\AC11.dll
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\bin\Debug\net8.0\AC11.pdb
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\AC11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\AC11.AssemblyInfoInputs.cache
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\AC11.AssemblyInfo.cs
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\AC11.csproj.CoreCompileInputs.cache
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\AC11.sourcelink.json
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\AC11.dll
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\refint\AC11.dll
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\AC11.pdb
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\AC11.genruntimeconfig.cache
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\obj\Debug\net8.0\ref\AC11.dll
