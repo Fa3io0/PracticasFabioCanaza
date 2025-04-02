@@ -2,26 +2,23 @@
 {
     private static void Main(string[] args)
     {
-        Proyecto proyecto = new Proyecto(
-            "Limoes proyect",
-            "Hacer limonadas para vender",
-            30,
-            100
-        );
+        Proyecto proyecto = new Proyecto("Limones proyect", "Hacer limonadas para vender", 30, 100);
 
-        proyecto.AnadirEmpleado(new Empleado("Fabio", "Desarrollador", 3000));
-        proyecto.AnadirEmpleado(new Empleado("Naomi", "Diseñadora", 2500));
+        proyecto.AnadirEmpleado(new Empleado("Fabio", "CEO", 3000));
+        proyecto.AnadirEmpleado(new Empleado("Naomi", "dependienta", 2000));
 
-        proyecto.AnadirTarea(new Tarea("Fabio", "En progreso", "Diseñar el logo del proyecto"));
-        proyecto.AnadirTarea(new Tarea("Naomi", "Pendiente", "Crear la API del proyecto"));
+        proyecto.AnadirTarea(new Tarea("hacer un logo", "En progreso", "Diseñar el logo del proyecto"));
+        proyecto.AnadirTarea(new Tarea("publicidad", "Pendiente", "Hacer merkating del proyecto"));
 
-        Console.WriteLine($"Nombre del proyecto {proyecto.Nombre}");
-        Console.WriteLine($"Descripción {proyecto.Descripcion}");
-        Console.WriteLine($"Dias restantes {proyecto.DiasRestantes}");
-        Console.WriteLine($"Costo estimado {proyecto.CostoEstimado}");
-        Console.WriteLine($"Estado {proyecto.Estado}");
-        Console.WriteLine($"Tareas pendientes {proyecto.TaresPendientes()}");
-        Console.WriteLine($"Numero de empleados {proyecto.ContarEmpleados()}");
+        Console.WriteLine($"Nombre del proyecto: {proyecto.Nombre}");
+        Console.WriteLine($"Descripción: {proyecto.Descripcion}");
+        Console.WriteLine($"Dias restantes: {proyecto.DiasRestantes}");
+        proyecto.ListarEmpleados();
+        proyecto.ListarTareas();
+        Console.WriteLine($"Costo estimado {proyecto.CostoEstimado} euros");
+        Console.WriteLine($"Estado: {proyecto.Estado}");
+        Console.WriteLine($"Tareas pendientes: {proyecto.TaresPendientes()}");
+        Console.WriteLine($"Numero de personas en el proyecto: {proyecto.ContarEmpleados()}");
 
         proyecto.Cliente = new Cliente("Tenoch", "55531099Z", 5000, 1000);
         Console.WriteLine($"Cliente {proyecto.Cliente.Nombre}, dni {proyecto.Cliente.Dni}");
@@ -69,6 +66,24 @@ public class Proyecto
     public void AnadirTarea(Tarea Tarea)
     {
         Tareas.Add(Tarea);
+    }
+
+    public void ListarTareas()
+    {
+        Console.WriteLine("Lista de tareas");
+        foreach (var tarea in Tareas)
+        {
+            Console.WriteLine($"nombre de la tarea: {tarea.Nombre} - estado: {tarea.Estado} - descripcion: {tarea.Descripcion}");
+        }
+    }
+
+    public void ListarEmpleados()
+    {
+        Console.WriteLine("Lista empleados");
+        foreach (var empleado in Empleados)
+        {
+            Console.WriteLine($"nombre: {empleado.Nombre} - cargo: {empleado.Cargo} - salario: {empleado.Salario}");
+        }
     }
 
     public int TaresPendientes()
