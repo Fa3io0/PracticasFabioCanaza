@@ -2,6 +2,14 @@
 
 namespace TestDaw;
 
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hola Mundo");
+    }
+}
+
 public class CalculadoraTests
 {
     [Fact]
@@ -23,6 +31,7 @@ public class CalculadoraTests
         Assert.NotEqual(0, resultado); // Verifica que el resultado no sea 0
         Assert.InRange(resultado, 4, 6); // Testea que el resultado este en el rango de 4 a 6
         Assert.True(resultado > 0, "El resultado debe ser positivo"); // Verifica que el resultado sea positivo
+        Assert.False(resultado <= 4, "El resultado no debe ser 5"); // Verifica que el resultado no sea menor o igual a 4
         Assert.IsType<int>(resultado); // Hace la prueba de que el resultado sea de tipo int
     }
 
@@ -70,23 +79,19 @@ public class CalculadoraTests
 }
 
 class Calculadora
-{
-    static void Main(string[] args)
     {
-        Console.WriteLine("Hola Mundo");
+        // Genera un número aleatorio
+        public int GenerarNumeroAleatorio()
+        {
+            var random = new Random();
+            return random.Next(); 
+        }
+        // Suma dos números
+        public int Sumar(int a, int b) => a + b;
+        // Resta dos números
+        public int Restar(int a, int b) => a - b;
+        // Multiplica dos números
+        public int Multiplicar(int a, int b) => a * b;
+        // Divide dos números
+        public int Dividir(int a, int b) => a / b;
     }
-    // Genera un número aleatorio
-    public int GenerarNumeroAleatorio()
-    {
-        var random = new Random();
-        return random.Next(); 
-    }
-    // Suma dos números
-    public int Sumar(int a, int b) => a + b;
-    // Resta dos números
-    public int Restar(int a, int b) => a - b;
-    // Multiplica dos números
-    public int Multiplicar(int a, int b) => a * b;
-    // Divide dos números
-    public int Dividir(int a, int b) => a / b;
-}
