@@ -4,8 +4,8 @@
     {
         Proyecto proyecto = new Proyecto("Limones proyect", "Hacer limonadas para vender", 30, 100);
 
-        proyecto.AnadirEmpleado(new Empleado("Fabio", "CEO", 3000));
-        proyecto.AnadirEmpleado(new Empleado("Naomi", "dependienta", 2000));
+        proyecto.AnadirEmpleado(new Empleado("Fabio", "444444Z", "CEO", 3000));
+        proyecto.AnadirEmpleado(new Empleado("Naomi", "444444F", "dependienta", 2000));
 
         proyecto.AnadirTarea(new Tarea("hacer un logo", "En progreso", "Diseñar el logo del proyecto"));
         proyecto.AnadirTarea(new Tarea("publicidad", "Pendiente", "Hacer merkating del proyecto"));
@@ -110,20 +110,6 @@ public class Proyecto
     }
 }
 
-public class Empleado
-{
-    public string Nombre { get; set; }
-    public string Cargo { get; set; }
-    public int Salario { get; set; }
-
-    public Empleado(string nombre, string cargo, int salario)
-    {
-        Nombre = nombre;
-        Cargo = cargo;
-        Salario = salario;
-    }
-}
-
 public class Tarea
 {
     public string Nombre { get; set; }
@@ -138,30 +124,43 @@ public class Tarea
     }
 }
 
-public class Cliente
+public class Persona
 {
     public string Nombre { get; set; }
     public string Dni { get; set; }
-    public int Pagado { get; set; }
-    public int Adelanto { get; set; }
 
-    public Cliente(string nombre, string dni, int pagado, int adelanto)
+    public Persona(string nombre, string dni)
     {
         Nombre = nombre;
         Dni = dni;
+    }
+}
+
+public class Empleado : Persona
+{
+    public string Cargo { get; set; }
+    public int Salario { get; set; }
+
+    public Empleado(string nombre, string dni, string cargo, int salario) : base (nombre, dni)
+    {
+        Cargo = cargo;
+        Salario = salario;
+    }
+}
+
+public class Cliente : Persona
+{
+    public int Pagado { get; set; }
+    public int Adelanto { get; set; }
+
+    public Cliente(string nombre, string dni, int pagado, int adelanto) : base (nombre, dni) 
+    {
         Pagado = pagado;
         Adelanto = adelanto;
     }
 }
 
-public class Proveedor
+public class Proveedor : Persona
 {
-    public string Nombre { get; set; }
-    public string Dni { get; set; }
-
-    public Proveedor(string nombre, string dni)
-    {
-        Nombre = nombre;
-        Dni = dni;
-    }
+    public Proveedor(string nombre, string dni) : base (nombre, dni) {}
 }

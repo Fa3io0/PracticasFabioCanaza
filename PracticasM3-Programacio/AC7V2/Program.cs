@@ -107,6 +107,15 @@
 //     }
 // }
 
+//  HEAD
+// struct Almacen
+// {
+//     public string nombre;
+//     public string categoria;
+//     public string precio;
+//     public int cantidad;
+// }
+
 // Codifica una estructura llamada "Película" que contenga los campos: título, director, género 
 // (acción, comedia, drama, etc.) y duración (en minutos). 
 // Declara un array bidimensional de tamaño [3,4] para clasificar películas en tres géneros 
@@ -352,130 +361,130 @@
 // ● Mostrar todas las reservas realizadas. 
 // ● Buscar las reservas de un usuario específico. 
 // ● Mostrar cuántos libros están pendientes de devolución. 
-internal class Ejercicio4
-{
-    private static void Main(string[] args)
-    { 
-        ReservaLibro[] libros= new ReservaLibro[7];
-        int numReservas = 0;
-        int opcion;
+// internal class Ejercicio4
+// {
+//     private static void Main(string[] args)
+//     { 
+//         ReservaLibro[] libros= new ReservaLibro[7];
+//         int numReservas = 0;
+//         int opcion;
 
-        do
-        {
-            Console.WriteLine("Menú: ");
-            Console.WriteLine("1. Agregar una nueva reserva");
-            Console.WriteLine("2. Mostrar todos las reservas realizadas");
-            Console.WriteLine("3. Buscar las reservas de un usuario");
-            Console.WriteLine("4. Mostrar cuántos libros están pendientes de devolución");
-            Console.WriteLine("5. Salir");
-            Console.Write("Ingrese su opción: ");
-            opcion = Convert.ToInt32(Console.ReadLine());
-            switch (opcion)
-            {
-                case 1:
-                    ReservarLibro(ref libros, ref numReservas);
-                    break;
-                case 2:
-                    MostrarReservas(libros, numReservas);
-                    break;
-                case 3:
-                    Console.Write("Ingrese el nombre del usuario a buscar: ");
-                    string nombreBuscado = Console.ReadLine();
-                    BuscarReservas(libros, numReservas, nombreBuscado);
-                    break;
-                case 4:
-                    MostrarPendientesDevolucion(libros, numReservas);
-                    break;
-                case 5:
-                    Console.WriteLine("Saliendo del programa...");
-                    break;
-                default:
-                    Console.WriteLine("Opción invalida");
-                    break;
-            }
-        }   while (opcion != 5);
-    }
+//         do
+//         {
+//             Console.WriteLine("Menú: ");
+//             Console.WriteLine("1. Agregar una nueva reserva");
+//             Console.WriteLine("2. Mostrar todos las reservas realizadas");
+//             Console.WriteLine("3. Buscar las reservas de un usuario");
+//             Console.WriteLine("4. Mostrar cuántos libros están pendientes de devolución");
+//             Console.WriteLine("5. Salir");
+//             Console.Write("Ingrese su opción: ");
+//             opcion = Convert.ToInt32(Console.ReadLine());
+//             switch (opcion)
+//             {
+//                 case 1:
+//                     ReservarLibro(ref libros, ref numReservas);
+//                     break;
+//                 case 2:
+//                     MostrarReservas(libros, numReservas);
+//                     break;
+//                 case 3:
+//                     Console.Write("Ingrese el nombre del usuario a buscar: ");
+//                     string nombreBuscado = Console.ReadLine();
+//                     BuscarReservas(libros, numReservas, nombreBuscado);
+//                     break;
+//                 case 4:
+//                     MostrarPendientesDevolucion(libros, numReservas);
+//                     break;
+//                 case 5:
+//                     Console.WriteLine("Saliendo del programa...");
+//                     break;
+//                 default:
+//                     Console.WriteLine("Opción invalida");
+//                     break;
+//             }
+//         }   while (opcion != 5);
+//     }
 
-    struct ReservaLibro
-    {
-        public string tituloLibro;
-        public string nombreUsuario;
-        public string fechaReserva;
-        public string fechaDevolucion;
-    }
+//     struct ReservaLibro
+//     {
+//         public string tituloLibro;
+//         public string nombreUsuario;
+//         public string fechaReserva;
+//         public string fechaDevolucion;
+//     }
 
-    static void ReservarLibro(ref ReservaLibro[] libros, ref int numReservas)
-    {
-        if (numReservas >= 7)
-        {
-            Console.WriteLine("No se pueden agregar más reservas. No hay espacio disponible.");
-            return;
-        }
+//     static void ReservarLibro(ref ReservaLibro[] libros, ref int numReservas)
+//     {
+//         if (numReservas >= 7)
+//         {
+//             Console.WriteLine("No se pueden agregar más reservas. No hay espacio disponible.");
+//             return;
+//         }
 
-        ReservaLibro nuevoLibro;
+//         ReservaLibro nuevoLibro;
 
-        Console.Write("Ingrese el titulo del libro: ");
-        nuevoLibro.tituloLibro = Console.ReadLine();
+//         Console.Write("Ingrese el titulo del libro: ");
+//         nuevoLibro.tituloLibro = Console.ReadLine();
 
-        Console.Write("Ingrese la fecha de reserva: ");
-        nuevoLibro.fechaReserva = Console.ReadLine();
+//         Console.Write("Ingrese la fecha de reserva: ");
+//         nuevoLibro.fechaReserva = Console.ReadLine();
 
-        Console.Write("Ingrese el nombre de usuario: ");
-        nuevoLibro.nombreUsuario = Console.ReadLine();
+//         Console.Write("Ingrese el nombre de usuario: ");
+//         nuevoLibro.nombreUsuario = Console.ReadLine();
 
-        Console.Write("Ingrese la fecha de devolución: ");
-        nuevoLibro.fechaDevolucion = Console.ReadLine();
+//         Console.Write("Ingrese la fecha de devolución: ");
+//         nuevoLibro.fechaDevolucion = Console.ReadLine();
 
-        libros[numReservas++] = nuevoLibro;
-        Console.WriteLine("Reserva agregada");
-    }
+//         libros[numReservas++] = nuevoLibro;
+//         Console.WriteLine("Reserva agregada");
+//     }
 
-    static void MostrarReservas(ReservaLibro[] libros, int numReservas)
-    {
-        for (int i = 0; i < numReservas; i++)
-        {
-            Console.WriteLine("-------------------------");
-            Console.WriteLine($"Nombre del libro: {libros[i].tituloLibro}");
-            Console.WriteLine($"Fecha de Reserva: {libros[i].fechaReserva}");
-            Console.WriteLine($"Nombre de usuario: {libros[i].nombreUsuario}");
-            Console.WriteLine($"Fecha de devolucion: {libros[i].fechaDevolucion}");
-            Console.WriteLine("-------------------------");
-        }
-    }
+//     static void MostrarReservas(ReservaLibro[] libros, int numReservas)
+//     {
+//         for (int i = 0; i < numReservas; i++)
+//         {
+//             Console.WriteLine("-------------------------");
+//             Console.WriteLine($"Nombre del libro: {libros[i].tituloLibro}");
+//             Console.WriteLine($"Fecha de Reserva: {libros[i].fechaReserva}");
+//             Console.WriteLine($"Nombre de usuario: {libros[i].nombreUsuario}");
+//             Console.WriteLine($"Fecha de devolucion: {libros[i].fechaDevolucion}");
+//             Console.WriteLine("-------------------------");
+//         }
+//     }
     
-    static void BuscarReservas(ReservaLibro[] libros, int numReservas, string nombreBuscado)
-    {
-        bool encontrado = false;
-        for (int i = 0; i < numReservas; i++)
-        {
-            if (libros[i].nombreUsuario.Equals(nombreBuscado, StringComparison.OrdinalIgnoreCase))
-            {
-                Console.WriteLine("-------------------------");
-                Console.WriteLine($"Titulo del libro: {libros[i].tituloLibro}");
-                Console.WriteLine($"Fecha de Reserva: {libros[i].fechaReserva}");
-                Console.WriteLine($"Nombre de usuario: {libros[i].nombreUsuario}");
-                Console.WriteLine($"Fecha de devolucion: {libros[i].fechaDevolucion}");
-                encontrado = true;
-                Console.WriteLine("-------------------------");
-                break;
-            }
-        }
-        if (!encontrado)
-        {
-            Console.WriteLine("Reserva no encontrada.");
-        }
-    }
+//     static void BuscarReservas(ReservaLibro[] libros, int numReservas, string nombreBuscado)
+//     {
+//         bool encontrado = false;
+//         for (int i = 0; i < numReservas; i++)
+//         {
+//             if (libros[i].nombreUsuario.Equals(nombreBuscado, StringComparison.OrdinalIgnoreCase))
+//             {
+//                 Console.WriteLine("-------------------------");
+//                 Console.WriteLine($"Titulo del libro: {libros[i].tituloLibro}");
+//                 Console.WriteLine($"Fecha de Reserva: {libros[i].fechaReserva}");
+//                 Console.WriteLine($"Nombre de usuario: {libros[i].nombreUsuario}");
+//                 Console.WriteLine($"Fecha de devolucion: {libros[i].fechaDevolucion}");
+//                 encontrado = true;
+//                 Console.WriteLine("-------------------------");
+//                 break;
+//             }
+//         }
+//         if (!encontrado)
+//         {
+//             Console.WriteLine("Reserva no encontrada.");
+//         }
+//     }
 
-    static void MostrarPendientesDevolucion(ReservaLibro[] libros, int numReservas)
-    {
-        int pendientes = 0;
-        for (int i = 0; i < numReservas; i++)
-        {
-            if (string.IsNullOrEmpty(libros[i].fechaDevolucion))
-            {
-                pendientes++;
-            }
-        }
-        Console.WriteLine($"Cantidad de libros pendientes de devolución: {pendientes}");
-    }
-}
+//     static void MostrarPendientesDevolucion(ReservaLibro[] libros, int numReservas)
+//     {
+//         int pendientes = 0;
+//         for (int i = 0; i < numReservas; i++)
+//         {
+//             if (string.IsNullOrEmpty(libros[i].fechaDevolucion))
+//             {
+//                 pendientes++;
+//             }
+//         }
+//         Console.WriteLine($"Cantidad de libros pendientes de devolución: {pendientes}");
+//     }
+// }
