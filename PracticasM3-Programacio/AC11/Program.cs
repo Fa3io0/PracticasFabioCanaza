@@ -4,8 +4,13 @@
     {
         Proyecto proyecto = new Proyecto("Limones proyect", "Hacer limonadas para vender", 30, 100);
 
+<<<<<<< HEAD
         proyecto.AnadirEmpleado(new Empleado("Fabio", "444444Z", "CEO", 3000));
         proyecto.AnadirEmpleado(new Empleado("Naomi", "444444F", "dependienta", 2000));
+=======
+        proyecto.AnadirEmpleado(new Empleado("Fabio", "CEO", 3000));
+        proyecto.AnadirEmpleado(new Empleado("Naomi", "dependienta", 2000));
+>>>>>>> 2527a3d2038649412fb516a992b6f12f15e61fdd
 
         proyecto.AnadirTarea(new Tarea("hacer un logo", "En progreso", "Diseñar el logo del proyecto"));
         proyecto.AnadirTarea(new Tarea("publicidad", "Pendiente", "Hacer merkating del proyecto"));
@@ -110,6 +115,23 @@ public class Proyecto
     }
 }
 
+<<<<<<< HEAD
+=======
+public class Empleado
+{
+    public string Nombre { get; set; }
+    public string Cargo { get; set; }
+    public int Salario { get; set; }
+
+    public Empleado(string nombre, string cargo, int salario)
+    {
+        Nombre = nombre;
+        Cargo = cargo;
+        Salario = salario;
+    }
+}
+
+>>>>>>> 2527a3d2038649412fb516a992b6f12f15e61fdd
 public class Tarea
 {
     public string Nombre { get; set; }
@@ -124,6 +146,7 @@ public class Tarea
     }
 }
 
+<<<<<<< HEAD
 public class Persona
 {
     public string Nombre { get; set; }
@@ -155,12 +178,38 @@ public class Cliente : Persona
 
     public Cliente(string nombre, string dni, int pagado, int adelanto) : base (nombre, dni)
     {
+=======
+public class Cliente
+{
+    public string Nombre { get; set; }
+    public string Dni { get; set; }
+    public int Pagado { get; set; }
+    public int Adelanto { get; set; }
+
+    public Cliente(string nombre, string dni, int pagado, int adelanto)
+    {
+        Nombre = nombre;
+        Dni = dni;
+>>>>>>> 2527a3d2038649412fb516a992b6f12f15e61fdd
         Pagado = pagado;
         Adelanto = adelanto;
     }
 }
 
+<<<<<<< HEAD
 public class Proveedor : Persona
 {
     public Proveedor(string nombre, string dni) : base (nombre, dni) {}
+=======
+public class Proveedor
+{
+    public string Nombre { get; set; }
+    public string Dni { get; set; }
+
+    public Proveedor(string nombre, string dni)
+    {
+        Nombre = nombre;
+        Dni = dni;
+    }
+>>>>>>> 2527a3d2038649412fb516a992b6f12f15e61fdd
 }

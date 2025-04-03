@@ -1,0 +1,15 @@
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\bin\Debug\net8.0\AC10V2.exe
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\bin\Debug\net8.0\AC10V2.deps.json
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\bin\Debug\net8.0\AC10V2.runtimeconfig.json
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\bin\Debug\net8.0\AC10V2.dll
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\bin\Debug\net8.0\AC10V2.pdb
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\AC10V2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\AC10V2.AssemblyInfoInputs.cache
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\AC10V2.AssemblyInfo.cs
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\AC10V2.csproj.CoreCompileInputs.cache
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\AC10V2.sourcelink.json
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\AC10V2.dll
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\refint\AC10V2.dll
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\AC10V2.pdb
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\AC10V2.genruntimeconfig.cache
+C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC10V2\obj\Debug\net8.0\ref\AC10V2.dll

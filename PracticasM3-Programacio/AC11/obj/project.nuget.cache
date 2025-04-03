@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "WPnH2nLbGEA=",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\Documents\\Programació\\AC11\\AC11.csproj",
+=======
+  "dgSpecHash": "ivMod0lpK0Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj",
+>>>>>>> 2527a3d2038649412fb516a992b6f12f15e61fdd
   "expectedPackageFiles": [],
   "logs": []
 }

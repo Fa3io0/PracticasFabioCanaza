@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media (width>1000px){
+    body{
+        font-family: Arial, sans-serif;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 10% auto 10%;
+        grid-template-columns: 70% 30%;
+        grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+    }
+}
+
+header{
+    grid-area: header;
+    background-color: rgb(36, 89, 158);
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 20px;
+    color: white;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    grid-area: main;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+aside{
+    background-color: rgb(255, 255, 255);
+    color: rgb(25, 71, 25);
+    grid-area: aside;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: space-around;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+aside ul {
+    padding: 20px;
+}
+
+aside ul li {
+    padding: 5px;
+}
+
+footer{
+    background-color: rgb(75, 120, 219);
+    grid-area: footer;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a{ 
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.logo{
+    width: 250px;
+    height: auto;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(173, 195, 212);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    grid-template-rows: 3;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.OBJ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.rojo { 
+    background-color: red; 
+    color: white; 
+}
+
+.azul {
+    background-color: blue; 
+    color: white; 
+}
+
+.verde { 
+    background-color: green; 
+    color: white; 
+}
+
+.naranja { 
+    background-color: orange; 
+    color: black; 
+}
+
+.amarillo {
+    background-color: yellow; 
+    color: black; 
+}
+
+.lila { 
+    background-color: purple; 
+    color: white; 
+}
+
+#botonCrear {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #437ed6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#llista {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.user-tarjeta {
+    background-color: #ffffff;
+    border: 2px solid #007BFF;
+    border-radius: 12px;
+    width: 300px;
+    padding: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.user-tarjeta h2 {
+    color: #007BFF;
+    margin: 0 0 10px;
+}
+
+.user-tarjeta p {
+    color: #333333;
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+.user-tarjeta ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.user-tarjeta li {
+    padding: 5px;
+    background-color: #007BFF;
+    border-radius: 16px;
+    color: #ffffff;
+    font-size: 0.95em;
+    margin-bottom: 5px; 
+    box-sizing: border-box;
+}
+
+#botonCrearTarjetas {
+    padding: 15px 30px;
+    margin: 20px 0;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.filosof-card {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+}
+
+.filosof-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.filosof-card h1 {
+    margin: 10px 0;
+    color: #222;
+}
+
+.filosof-card p {
+    margin: 5px 0;
+    color: #555;
+}

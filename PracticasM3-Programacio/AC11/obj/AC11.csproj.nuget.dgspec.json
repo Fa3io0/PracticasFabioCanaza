@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\User\\Documents\\Programació\\AC11\\AC11.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj",
+        "projectName": "AC11",
+        "projectPath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj",
+        "packagesPath": "C:\\Users\\Ramiro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ramiro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 2527a3d2038649412fb516a992b6f12f15e61fdd
         ],
         "originalTargetFrameworks": [
           "net8.0"

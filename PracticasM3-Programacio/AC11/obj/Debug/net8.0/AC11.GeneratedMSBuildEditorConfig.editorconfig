@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AC11
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\User\Documents\Programació\AC11\
+=======
+build_property.ProjectDir = C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC11\
+>>>>>>> 2527a3d2038649412fb516a992b6f12f15e61fdd
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,15 @@
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\bin\Debug\net8.0\AC7V2.exe
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\bin\Debug\net8.0\AC7V2.deps.json
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\bin\Debug\net8.0\AC7V2.runtimeconfig.json
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\bin\Debug\net8.0\AC7V2.dll
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\bin\Debug\net8.0\AC7V2.pdb
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\AC7V2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\AC7V2.AssemblyInfoInputs.cache
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\AC7V2.AssemblyInfo.cs
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\AC7V2.csproj.CoreCompileInputs.cache
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\AC7V2.sourcelink.json
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\AC7V2.dll
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\refint\AC7V2.dll
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\AC7V2.pdb
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\AC7V2.genruntimeconfig.cache
+C:\Users\Ramiro\Documents\DAW\PracticasM3_Programacio\PracticasFabioCanaza\PracticasM3-Programacio\AC7V2\obj\Debug\net8.0\ref\AC7V2.dll

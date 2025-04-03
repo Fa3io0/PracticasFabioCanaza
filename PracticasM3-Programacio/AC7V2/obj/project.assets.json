@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Ramiro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC7V2\\AC7V2.csproj",
+      "projectUniqueName": "C:\\Users\\Ramiro\\Documents\\DAW\\PracticasM3_Programacio\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC7V2\\AC7V2.csproj",
       "projectName": "AC7V2",
-      "projectPath": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC7V2\\AC7V2.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC7V2\\obj\\",
+      "projectPath": "C:\\Users\\Ramiro\\Documents\\DAW\\PracticasM3_Programacio\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC7V2\\AC7V2.csproj",
+      "packagesPath": "C:\\Users\\Ramiro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ramiro\\Documents\\DAW\\PracticasM3_Programacio\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC7V2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Ramiro\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
