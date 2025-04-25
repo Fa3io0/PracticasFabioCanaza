@@ -20,6 +20,7 @@
         gestio.LlistarPlats();
     }
 }
+
 class Ingredient
 {
     public string Nom { get; set; }
