@@ -1,0 +1,88 @@
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        GestioDeReceptes gestio = new GestioDeReceptes();
+
+        Plat truita = new Plat("Truita de patates");
+        truita.AfegirIngredient(new Ingredient("Ous", 200));
+        truita.AfegirIngredient(new Ingredient("Patates", 300));
+        truita.AfegirIngredient(new Ingredient("Sal", 5));
+
+        Plat amanida = new Plat("Amanida verda");
+        amanida.AfegirIngredient(new Ingredient("Enciam", 150));
+        amanida.AfegirIngredient(new Ingredient("Tomaquet", 100));
+        amanida.AfegirIngredient(new Ingredient("Oli", 10));
+
+        gestio.AfegirPlat(truita);
+        gestio.AfegirPlat(amanida);
+
+        gestio.LlistarPlats();
+    }
+}
+class Ingredient
+{
+    public string Nom { get; set; }
+    public float Grams { get; set; }
+
+    public Ingredient(string nom, float grams)
+    {
+        Nom = nom;
+        Grams = grams;
+    }
+}
+
+class Plat
+{
+    public string Nom { get; set; }
+    public List<Ingredient> Ingredients { get; set; }
+
+    public Plat(string nom)
+    {
+        Nom = nom;
+        Ingredients = new List<Ingredient>();
+    }
+
+    public void AfegirIngredient(Ingredient ingredient)
+    {
+        Ingredients.Add(ingredient);
+    }
+
+    public void EliminarIngredient(Ingredient ingredient)
+    {
+        Ingredients.Remove(ingredient);
+    }
+
+    public void LlistarIngredients()
+    {
+        Console.WriteLine($"Ingredients del plat: {Nom}");
+        foreach (var ingredient in Ingredients)
+        {
+            Console.WriteLine($"- {ingredient.Nom}: {ingredient.Grams}g");
+        }
+    }
+}
+
+class GestioDeReceptes
+{
+    private List<Plat> plats;
+
+    public GestioDeReceptes()
+    {
+        plats = new List<Plat>();
+    }
+
+    public void AfegirPlat(Plat plat)
+    {
+        plats.Add(plat);
+    }
+
+    public void LlistarPlats()
+    {
+        Console.WriteLine("Llistat de plats:");
+        foreach (var plat in plats)
+        {
+            plat.LlistarIngredients();
+        }
+    }
+}
