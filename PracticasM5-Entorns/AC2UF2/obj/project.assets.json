@@ -862,19 +862,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ramiro\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\AC2UF2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\AC2UF2.csproj",
       "projectName": "AC2UF2",
-      "projectPath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\AC2UF2.csproj",
-      "packagesPath": "C:\\Users\\Ramiro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\AC2UF2.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ramiro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
