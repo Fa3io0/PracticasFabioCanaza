@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qwzgWnEwp2o=",
+  "dgSpecHash": "ivMod0lpK0Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj",
+  "projectFilePath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

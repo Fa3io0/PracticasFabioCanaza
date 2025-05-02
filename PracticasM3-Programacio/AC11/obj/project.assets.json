@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Ramiro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj",
+      "projectUniqueName": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj",
       "projectName": "AC11",
-      "projectPath": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\obj\\",
+      "projectPath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\AC11.csproj",
+      "packagesPath": "C:\\Users\\Ramiro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Ramiro\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -67,13 +67,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC11\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
