@@ -1,0 +1,14 @@
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\bin\Debug\net8.0\Entorns-AC-UF3.exe
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\bin\Debug\net8.0\Entorns-AC-UF3.deps.json
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\bin\Debug\net8.0\Entorns-AC-UF3.runtimeconfig.json
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\bin\Debug\net8.0\Entorns-AC-UF3.dll
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\bin\Debug\net8.0\Entorns-AC-UF3.pdb
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\obj\Debug\net8.0\Entorns-AC-UF3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\obj\Debug\net8.0\Entorns-AC-UF3.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\obj\Debug\net8.0\Entorns-AC-UF3.AssemblyInfo.cs
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\obj\Debug\net8.0\Entorns-AC-UF3.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\obj\Debug\net8.0\Entorns-AC-UF3.dll
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\obj\Debug\net8.0\refint\Entorns-AC-UF3.dll
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\obj\Debug\net8.0\Entorns-AC-UF3.pdb
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\obj\Debug\net8.0\Entorns-AC-UF3.genruntimeconfig.cache
+C:\Users\User\Documents\Programació\Entorns-AC-UF3\obj\Debug\net8.0\ref\Entorns-AC-UF3.dll

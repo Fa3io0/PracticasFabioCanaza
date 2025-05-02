@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD:PracticasM3-Programacio/AC12/obj/AC12.csproj.nuget.dgspec.json
     "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC12\\AC12.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC12\\AC12.csproj",
         "packagesPath": "C:\\Users\\Ramiro\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Ramiro\\Documents\\DAW\\Practicas_GitHub\\PracticasFabioCanaza\\PracticasM3-Programacio\\AC12\\obj\\",
+=======
+    "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\AC2UF2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\AC2UF2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\AC2UF2.csproj",
+        "projectName": "AC2UF2",
+        "projectPath": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\AC2UF2.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\Programació\\PracticasFabioCanaza\\PracticasFabioCanaza\\PracticasM5-Entorns\\AC2UF2\\obj\\",
+>>>>>>> 1a2639c17f27bfea73b85a2a1d390dbe99f30b68:PracticasM5-Entorns/AC2UF2/obj/AC2UF2.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ramiro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

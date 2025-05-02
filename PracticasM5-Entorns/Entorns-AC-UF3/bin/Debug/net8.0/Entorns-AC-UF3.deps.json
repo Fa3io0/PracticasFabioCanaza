@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Entorns-AC-UF3/1.0.0": {
+        "runtime": {
+          "Entorns-AC-UF3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Entorns-AC-UF3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
