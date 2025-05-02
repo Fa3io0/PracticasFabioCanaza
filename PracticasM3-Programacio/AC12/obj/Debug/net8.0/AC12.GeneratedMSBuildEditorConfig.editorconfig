@@ -7,7 +7,12 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
+<<<<<<< HEAD:PracticasM3-Programacio/AC12/obj/Debug/net8.0/AC12.GeneratedMSBuildEditorConfig.editorconfig
 build_property.RootNamespace = AC12
 build_property.ProjectDir = C:\Users\Ramiro\Documents\DAW\Practicas_GitHub\PracticasFabioCanaza\PracticasM3-Programacio\AC12\
+=======
+build_property.RootNamespace = AC2UF2
+build_property.ProjectDir = C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM5-Entorns\AC2UF2\
+>>>>>>> 1a2639c17f27bfea73b85a2a1d390dbe99f30b68:PracticasM5-Entorns/AC2UF2/obj/Debug/net8.0/AC2UF2.GeneratedMSBuildEditorConfig.editorconfig
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
