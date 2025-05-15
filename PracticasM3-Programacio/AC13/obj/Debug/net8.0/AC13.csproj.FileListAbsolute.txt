@@ -1,0 +1,15 @@
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\bin\Debug\net8.0\AC13.exe
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\bin\Debug\net8.0\AC13.deps.json
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\bin\Debug\net8.0\AC13.runtimeconfig.json
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\bin\Debug\net8.0\AC13.dll
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\bin\Debug\net8.0\AC13.pdb
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\AC13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\AC13.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\AC13.AssemblyInfo.cs
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\AC13.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\AC13.sourcelink.json
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\AC13.dll
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\refint\AC13.dll
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\AC13.pdb
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\AC13.genruntimeconfig.cache
+C:\Users\User\Documents\Programació\PracticasFabioCanaza\PracticasFabioCanaza\PracticasM3-Programacio\AC13\obj\Debug\net8.0\ref\AC13.dll
