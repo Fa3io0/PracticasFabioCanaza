@@ -1,0 +1,14 @@
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\bin\Debug\net8.0\PROJECTOFINAL-CLASES.exe
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\bin\Debug\net8.0\PROJECTOFINAL-CLASES.deps.json
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\bin\Debug\net8.0\PROJECTOFINAL-CLASES.runtimeconfig.json
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\bin\Debug\net8.0\PROJECTOFINAL-CLASES.dll
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\bin\Debug\net8.0\PROJECTOFINAL-CLASES.pdb
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\obj\Debug\net8.0\PROJECTOFINAL-CLASES.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\obj\Debug\net8.0\PROJECTOFINAL-CLASES.AssemblyInfoInputs.cache
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\obj\Debug\net8.0\PROJECTOFINAL-CLASES.AssemblyInfo.cs
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\obj\Debug\net8.0\PROJECTOFINAL-CLASES.csproj.CoreCompileInputs.cache
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\obj\Debug\net8.0\PROJECTOFINAL-CLASES.dll
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\obj\Debug\net8.0\refint\PROJECTOFINAL-CLASES.dll
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\obj\Debug\net8.0\PROJECTOFINAL-CLASES.pdb
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\obj\Debug\net8.0\PROJECTOFINAL-CLASES.genruntimeconfig.cache
+C:\Users\Ramiro\Documents\DAW\Programació\PROJECTOFINAL-CLASES\obj\Debug\net8.0\ref\PROJECTOFINAL-CLASES.dll
