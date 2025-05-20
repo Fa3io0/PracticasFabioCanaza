@@ -120,19 +120,11 @@ namespace SQLite
             string selectQuery = "SELECT * FROM Games WHERE Name = @name";
             SQLiteCommand searchCommand = new SQLiteCommand(selectQuery, connection);
             searchCommand.Parameters.AddWithValue("@name", name);
-            SQLiteDataReader reader = searchCommand.ExecuteReader();
+            SQLiteDataReader result = searchCommand.ExecuteReader();
 
-            bool found = false;
-
-            while (reader.Read())
+            while (result.Read())
             {
-                found = true;
-                Console.WriteLine($"Year: {reader["Year"]}, Name: {reader["Name"]}, Studio: {reader["Studio"]}");
-            }
-
-            if (!found)
-            {
-                Console.WriteLine("No game found with that name.");
+                Console.WriteLine("Id: {0}, Name: {1}, Studio: {2}", result["Year"], result["Name"], result["Studio"]);
             }
         }
 
