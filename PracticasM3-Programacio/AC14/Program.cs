@@ -106,7 +106,7 @@ namespace SQLite
             SQLiteCommand deleteCommand = new SQLiteCommand(deleteQuery, connection);
             deleteCommand.Parameters.AddWithValue("@year", year);
 
-            int delete = deleteCommand.ExecuteNonQuery();
+            deleteCommand.ExecuteNonQuery();
             Console.WriteLine("Delete successfully :>");
 
             MostrarPersonas(connection);
@@ -146,7 +146,7 @@ namespace SQLite
             updateCommand.Parameters.AddWithValue("@studio", newStudio);
             updateCommand.Parameters.AddWithValue("@year", year);
             
-            int update = updateCommand.ExecuteNonQuery();
+            updateCommand.ExecuteNonQuery();
             Console.WriteLine("Update successfully");
             
         }
