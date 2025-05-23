@@ -145,10 +145,9 @@ namespace SQLite
             updateCommand.Parameters.AddWithValue("@name", newName);
             updateCommand.Parameters.AddWithValue("@studio", newStudio);
             updateCommand.Parameters.AddWithValue("@year", year);
-            
+
             updateCommand.ExecuteNonQuery();
             Console.WriteLine("Update successfully");
-            
         }
     }
 }
