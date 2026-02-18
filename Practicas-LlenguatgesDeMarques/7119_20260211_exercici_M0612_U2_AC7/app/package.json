@@ -1,0 +1,13 @@
+{
+  "name": "fetch-post-demo",
+  "version": "1.0.0",
+  "description": "Demo de POST con fetch: JSON y FormData (Node + Express)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.0.2"
+  }
+}
